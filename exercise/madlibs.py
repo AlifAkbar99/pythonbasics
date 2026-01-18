@@ -1,0 +1,10 @@
+adjective = input('enter your adjective: ')
+noun = input('enter your noun: ')
+adjective2 = input('enter another adjective: ')
+verb = input('enter a verb: ')
+adjective3 = input('enter one more adjective: ')
+
+print(f'Today, i went to the {adjective} park')
+print(f'In a exhibit, i saw {noun}')
+print(f'{noun} was {adjective2} and {verb}ing')
+print(f'i was {adjective3}')
