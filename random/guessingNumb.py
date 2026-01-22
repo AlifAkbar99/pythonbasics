@@ -11,10 +11,10 @@ print(f'Select a number between {lowest_num} and {highest_num}')
 
 while is_running:
     
-    guess = input('Enter your guess: ')
+    guess = input('Enter your guess: ') # panggil fungsi dibawah
     
     if guess.isdigit():
-        guess = int(guess)
+        guess = int(guess) # fungsi nya agar yang diinput berupa integer
         guesses += 1
         
         if guess < lowest_num or guess > highest_num:
